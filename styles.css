@@ -1,0 +1,143 @@
+body {
+  background-image: url(images/lukas-blazek-320606-unsplash.jpg);
+  background-position: center;
+  background-size: 100em;
+  
+}
+
+h6 {
+  color: #4e9952;
+  font-size: 2em;
+  
+  
+}
+/***
+ *    ███╗   ██╗█████╗██╗   ██╗
+ *    ████╗  ████╔══████║   ██║
+ *    ██╔██╗ ███████████║   ██║
+ *    ██║╚██╗████╔══██╚██╗ ██╔╝
+ *    ██║ ╚██████║  ██║╚████╔╝ 
+ *    ╚═╝  ╚═══╚═╝  ╚═╝ ╚═══╝  
+ */      
+img {
+  padding: 10px;
+}
+div.col-sm-2.nameTag {
+ 
+  float: right;
+  background-color: #4e9952;
+  height: 50px;
+  font-family: 'Nunito', cursive;
+  color: #fff;
+  font-size: 27px;
+  font-weight: 700;
+  min-width: 180px;
+}
+
+div.col-sm-1.navAbout,
+div.col-sm-1.navPortfolio,
+div.col-sm-1.navContact,
+{
+
+}
+
+div.col-sm-1.navAbout.borderRight,
+div.col-sm-1.navPortfolio.borderRight 
+{
+  /* border-right: 1px #000 solid; */
+    
+}
+
+.navButton {
+  text-align: left;
+  width: 70px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.767);
+  padding: 10px;
+  
+  
+}
+a, a:hover, a:visited, a:active {
+  color: #4e9952;
+  text-decoration: none;
+  background-color: #ccc;
+  font-weight: 700px;
+}
+
+/***
+ *     █████╗██████╗ ██████╗██╗   ██████████╗
+ *    ██╔══████╔══████╔═══████║   ██╚══██╔══╝
+ *    █████████████╔██║   ████║   ██║  ██║   
+ *    ██╔══████╔══████║   ████║   ██║  ██║   
+ *    ██║  ████████╔╚██████╔╚██████╔╝  ██║   
+ *    ╚═╝  ╚═╚═════╝ ╚═════╝ ╚═════╝   ╚═╝   
+ *                                           
+ */
+
+ div.col-sm-10.nestedAbout {
+   margin: 20px 10px 20px;
+   background-color: #fff;
+   padding: 0px 20px 10px;
+ }
+
+ img.nestedPhoto {
+   padding: 15px 15px 15px 0px;
+   float: left;
+   width: 300px;
+   height: 300px;
+   
+ }
+ .nestedText {
+   float: left;
+   background-color: #fff;
+ }
+
+
+ /***
+ *    ██████╗ ██████╗██████╗████████╗
+ *    ██╔══████╔═══████╔══██╚══██╔══╝
+ *    ██████╔██║   ████████╔╝  ██║   
+ *    ██╔═══╝██║   ████╔══██╗  ██║   
+ *    ██║    ╚██████╔██║  ██║  ██║   
+ *    ╚═╝     ╚═════╝╚═╝  ╚═╝  ╚═╝   
+ *                                   
+ */
+
+
+ img {
+   float: left;
+  padding: 10px 10px;
+  padding-left: 50px;
+  
+ }
+
+ div.col-sm-10.gallery {
+   background-color: #fff;
+   margin: 20px;
+   
+ }
+
+ @media screen and (max-width: 700px){
+  img {
+    padding-right: 50px;
+    
+  }
+
+
+ }
+
+
+ /***
+ *     ██████╗██████╗███╗   ██████████╗
+ *    ██╔════██╔═══██████╗  ██╚══██╔══╝
+ *    ██║    ██║   ████╔██╗ ██║  ██║   
+ *    ██║    ██║   ████║╚██╗██║  ██║   
+ *    ╚██████╚██████╔██║ ╚████║  ██║   
+ *     ╚═════╝╚═════╝╚═╝  ╚═══╝  ╚═╝   
+ *                                     
+ */
+
+ div.row.contact {
+   background: #fff;
+   margin: 20px 10px 10px;
+ }
